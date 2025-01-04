@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@mipmap/logo"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del usuario:"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="398dp" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:hint="Ingrese un usuario"
+            android:width="290dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="454dp"
+            android:background="@drawable/cuadro_edittext"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo:"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="398dp" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:hint="Ingrese un correo"
+            android:width="290dp"
+            android:padding="10dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/baseline_mail_outline_24"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="454dp"
+            android:background="@drawable/cuadro_edittext"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="398dp" />
+
+        <EditText
+            android:id="@+id/etContraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:hint="Ingrese una contraseña"
+            android:width="290dp"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_lock_open_24"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="454dp"
+            android:background="@drawable/cuadro_edittext"/>
+
+        <Button
+            android:id="@+id/btnRegristo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:text="Registrarse"
+            android:background="@drawable/cuadro_edittext"/>
+        <Button
+            android:id="@+id/btnConsulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:text="Registrarse"
+            android:background="@drawable/cuadro_edittext"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
